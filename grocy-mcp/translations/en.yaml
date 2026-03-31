@@ -1,0 +1,15 @@
+configuration:
+  grocy_url:
+    name: Grocy URL
+    description: URL of your Grocy instance (e.g. http://homeassistant.local:9192)
+  grocy_api_key:
+    name: Grocy API Key
+    description: API key from Grocy (Settings > Manage API keys)
+  port:
+    name: Port
+    description: HTTP port for the MCP server
+  secret_path:
+    name: Secret Path
+    description: >-
+      Custom secret URL path (leave empty to auto-generate).
+      Must start with / and be at least 8 characters.

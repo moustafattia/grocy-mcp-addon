@@ -1,0 +1,23 @@
+name: "Grocy MCP Server"
+description: "MCP server for Grocy — AI agent access to stock, shopping lists, recipes and chores"
+version: "0.1.0"
+slug: grocy-mcp
+url: "https://github.com/moustafattia/grocy-mcp-addon"
+init: false
+arch:
+  - aarch64
+  - amd64
+icon: mdi:food-variant
+startup: application
+boot: manual
+host_network: true
+options:
+  grocy_url: "http://homeassistant.local:9192"
+  grocy_api_key: ""
+  port: 9193
+  secret_path: ""
+schema:
+  grocy_url: str
+  grocy_api_key: str
+  port: int
+  secret_path: str?
