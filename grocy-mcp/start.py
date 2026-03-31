@@ -7,7 +7,6 @@ import logging
 import os
 import re
 import secrets
-import socket
 import sys
 from pathlib import Path
 
@@ -101,10 +100,9 @@ def main() -> None:
     check_grocy_connectivity(grocy_url, grocy_api_key)
 
     # Log the MCP URL
-    hostname = socket.gethostname()
     log.info("-----------------------------------------------------------")
     log.info("Grocy MCP Server is running!")
-    log.info("MCP endpoint: http://%s:%s%s", hostname, port, secret_path)
+    log.info("MCP endpoint: http://homeassistant.local:%s%s", port, secret_path)
     log.info("-----------------------------------------------------------")
 
     # Import and start the server
