@@ -4,10 +4,12 @@ Home Assistant add-on that runs [grocy-mcp](https://github.com/moustafattia/groc
 
 ## Features
 
-- 30 Grocy tools: stock, shopping lists, recipes, chores, system management
+- 80+ Grocy tools: stock, shopping, recipes, chores, tasks, meal plans, batteries, equipment, files, calendar, discovery, and workflow helpers
 - Stateless HTTP MCP transport for Claude.ai compatibility
 - Auto-generated secret URL path (128-bit entropy) for security
 - Two-stage Docker build for minimal image size
+
+This add-on currently packages `grocy-mcp` `0.2.0`.
 
 ## Installation
 

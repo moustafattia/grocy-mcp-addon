@@ -1,6 +1,6 @@
 name: "Grocy MCP Server"
-description: "MCP server for Grocy — AI agent access to stock, shopping lists, recipes and chores"
-version: "0.1.0"
+description: "MCP server for Grocy - AI access to stock, shopping, recipes, chores, workflows, planning, batteries, and more"
+version: "0.2.0"
 slug: grocy-mcp
 url: "https://github.com/moustafattia/grocy-mcp-addon"
 init: false

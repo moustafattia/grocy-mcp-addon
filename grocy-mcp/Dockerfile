@@ -7,7 +7,7 @@ ENV UV_PYTHON_DOWNLOADS=never
 WORKDIR /app
 RUN uv venv .venv
 RUN --mount=type=cache,target=/root/.cache/uv \
-    uv pip install --python .venv/bin/python grocy-mcp==0.1.1
+    uv pip install --python .venv/bin/python grocy-mcp==0.2.0
 
 # Stage 2: Runtime
 FROM python:3.13-slim
